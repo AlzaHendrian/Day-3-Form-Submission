@@ -1,0 +1,105 @@
+/* NAVBAR */
+
+* {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(to right, #191919 15%, #040303, #191919);
+}
+nav {
+  display: flex;
+  background: linear-gradient(to right, #000000, #191919 15%, #040303);
+}
+
+nav div {
+  display: flex;
+  align-items: center;
+  flex: 50%;
+  padding: 12px;
+}
+
+nav div.menu1 {
+  padding-left: 50px;
+  height: 50px;
+}
+
+div.menu1 a.nav-logo {
+  text-decoration: none;
+  color: white;
+  font-size: 40px;
+  font-family: "Creepster", cursive;
+}
+
+nav div.menu2 {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 70px;
+}
+
+a.nav-contact {
+  text-decoration: none;
+  color: black;
+  background-color: #a5c9ca;
+  border-radius: 15px;
+  padding: 8px 12px;
+  font-weight: 700;
+}
+.nav-contact:hover {
+  color: #dbdbdb;
+  transition: 0.5s;
+  box-shadow: 1px 1px 0 #dbdbdb;
+  border-radius: 15px;
+  background-color: #2929b8;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline;
+  margin-left: 40px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+#home:hover {
+  box-shadow: 0 1px 0 #dbdbdb;
+  transition: 0.2s;
+  padding-bottom: 4px;
+  color: #2929b8;
+}
+
+#project:hover {
+  box-shadow: 0 1px 0 #dbdbdb;
+  transition: 0.2s;
+  padding-bottom: 4px;
+  color: #2929b8;
+}
+
+#project {
+  font-weight: 700;
+}
+
+nav ul li a.active {
+  color: #a5c9ca;
+  font-weight: 700;
+}
+
+nav .right-side a {
+  font-size: 15px;
+  padding: 8px 20px;
+  background-color: orangered;
+  border-radius: 10px;
+  color: #fff;
+  text-decoration: none;
+}
+
+/* END NAVBAR */
